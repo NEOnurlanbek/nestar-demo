@@ -5,11 +5,10 @@ import { NextPage } from "next";
 
 
     const PropertyList: NextPage = () => {
-
-        return (
-        <>
-        <Container>PROPERTY LIST</Container>;
-        </>
+    return (
+      <div style={{margin: "20px 0"}}>
+        <Stack>PROPERTY LIST</Stack>
+      </div>
         );
     };
 

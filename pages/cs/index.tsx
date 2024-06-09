@@ -4,14 +4,14 @@ import { NextPage } from "next";
 import { useState } from "react";
 
 
-const Community: NextPage = () => {
+const CS: NextPage = () => {
     console.log("COMMUNITY COMPONENT - PAGES ROUTER");
     const [title, setTitle] = useState<String>("hello");
     return (
         <div style={{margin: "20px 0"}}>
-        <Stack>Community</Stack>
+        <Stack>CS</Stack>
       </div>
       )  
 };
 
-export default withLayoutBasic( Community);
+export default withLayoutBasic( CS );
